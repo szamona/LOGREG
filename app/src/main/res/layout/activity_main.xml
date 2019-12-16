@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    >
+
+
+
+    <EditText
+        android:id="@+id/txtEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="e-mail vagy felhasznalónev"
+        android:inputType="textEmailAddress"
+        />
+
+    <EditText
+        android:id="@+id/txtJelszo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Jelszó"
+
+        android:inputType="textPassword"
+        />
+    <Button
+        android:id="@+id/btnRegisztracio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Regisztráció"
+        />
+
+    <Button
+        android:id="@+id/btnBejelentkezes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" Bejelentkezés"
+        />
+
+    <CheckBox
+        android:id="@+id/chBoxJegyezzMeg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Jegyezz meg" />
+</LinearLayout>
